@@ -1,0 +1,158 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ROOT THEME VARIABLES */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --accent-color: #007bff;
+  --header-color: #f0f0f0;
+}
+
+.dark-theme {
+  --bg-color: #0f172a;
+  --text-color: #e2e8f0;
+  --accent-color: #38bdf8;
+  --header-color: #1e293b;
+}
+
+/* GLOBAL STYLES */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+/* HEADER & NAVIGATION */
+header {
+  background-color: var(--header-color);
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.4s;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: var(--accent-color);
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #7c3aed; /* Optional 2nd accent */
+}
+
+/* MAIN CONTAINER */
+.container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* SECTIONS */
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: rgba(124, 58, 237, 0.1); /* Light purple transparent bg */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* PROFILE PICTURE */
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+}
+
+/* LIST STYLING */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* PROJECT LINKS */
+.project a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* FORM ELEMENTS */
+form label {
+  display: block;
+  margin: 10px 0;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* BUTTONS */
+button, .glow-button {
+  padding: 10px 15px;
+  background: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s;
+}
+
+button:hover, .glow-button:hover {
+  box-shadow: 0 0 12px var(--accent-color), 0 0 24px var(--accent-color);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background: #111111;
+  color: white;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .profile-pic {
+    width: 120px;
+  }
+}
+
+/* SCROLL ANIMATION CLASSES */
+.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.6s ease-out;
+}
