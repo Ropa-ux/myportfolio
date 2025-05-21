@@ -1,14 +1,24 @@
-💻 Ropafadzo Natasha Chinodya – Portfolio Website
-This is my personal portfolio website built with HTML, CSS, and JavaScript. It highlights my skills, projects, and interests in web development and cybersecurity.
+# 💻 Ropafadzo Natasha Chinodya – Portfolio Website
 
-🚀 Features
-Responsive design
+This is my personal portfolio website built using HTML, CSS, and JavaScript. It highlights my skills, projects, and interests in web development and cybersecurity.
 
-Scroll animations (AOS)
+🌐 Live Site: [View Portfolio](https://ropa-ux.github.io/myportfolio/)
 
-Dark/light theme toggle
+ ✨ Features
+- Responsive design
+- Scroll animations (AOS)
+- Dark/light theme toggle
+- Contact form
 
-Contact form
+📁 Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+- AOS (Animate on Scroll)
+- Font Awesome
 
-🛠️ Tech Stack
-HTML | CSS | JavaScript | Font Awesome | AO
+📌 Author
+Ropafadzo Natasha Chinodya  
+
+
+
