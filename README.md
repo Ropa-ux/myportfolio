@@ -8,8 +8,6 @@ Scroll animations (AOS)
 
 Dark/light theme toggle
 
-Glowing buttons
-
 Contact form
 
 🛠️ Tech Stack
